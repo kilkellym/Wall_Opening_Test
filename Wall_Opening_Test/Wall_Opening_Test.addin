@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command Wall_Opening_Test</Text>
+    <Description>Some description for Wall_Opening_Test</Description>
+    <Assembly>Wall_Opening_Test.dll</Assembly>
+    <FullClassName>Wall_Opening_Test.Command</FullClassName>
+    <ClientId>453005a2-44c5-42ac-8034-3370f700a7b6</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application Wall_Opening_Test</Name>
+    <Assembly>Wall_Opening_Test.dll</Assembly>
+    <FullClassName>Wall_Opening_Test.App</FullClassName>
+    <ClientId>a4ae744d-8f2b-445d-add5-055796a5cd43</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
